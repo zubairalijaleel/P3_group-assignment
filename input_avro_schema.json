@@ -1,0 +1,186 @@
+{
+	"type": "record",
+	"name": "topLevelRecord",
+	"fields": [{
+			"name": "DusTimestamp",
+			"type": ["string", "null"]
+		}, {
+			"name": "Version",
+			"type": ["string", "null"]
+		}, {
+			"name": "CtId",
+			"type": ["string", "null"]
+		}, {
+			"name": "TimeInfo",
+			"type": [{
+					"type": "record",
+					"name": "TimeInfo",
+					"fields": [{
+							"name": "TimestampTableau",
+							"type": ["string", "null"]
+						}, {
+							"name": "TimestampDateTime",
+							"type": ["string", "null"]
+						}, {
+							"name": "TimestampOffset",
+							"type": ["double", "null"]
+						}, {
+							"name": "TimestampMillis",
+							"type": ["long", "null"]
+						}, {
+							"name": "IsSynced",
+							"type": ["boolean", "null"]
+						}, {
+							"name": "TimeSource",
+							"type": ["string", "null"]
+						}, {
+							"name": "MillisSinceLastSync",
+							"type": ["long", "null"]
+						}, {
+							"name": "DeviceDriftMillis",
+							"type": ["long", "null"]
+						}
+					]
+				}, "null"]
+		}, {
+			"name": "TestTimestamp",
+			"type": ["string", "null"]
+		}, {
+			"name": "ScreenState",
+			"type": ["string", "null"]
+		}, {
+			"name": "ServerFilename",
+			"type": ["string", "null"]
+		}, {
+			"name": "DurationTcpConnect",
+			"type": ["long", "null"]
+		}, {
+			"name": "DurationHttpReceive",
+			"type": ["long", "null"]
+		}, {
+			"name": "BytesRead",
+			"type": ["long", "null"]
+		}, {
+			"name": "HeaderBytesRead",
+			"type": ["long", "null"]
+		}, {
+			"name": "TruststoreTimestamp",
+			"type": ["long", "null"]
+		}, {
+			"name": "HTTPStatus",
+			"type": ["int", "null"]
+		}, {
+			"name": "TestType",
+			"type": ["string", "null"]
+		}, {
+			"name": "DurationHttpGetCommand",
+			"type": ["long", "null"]
+		}, {
+			"name": "DurationDNS",
+			"type": ["long", "null"]
+		}, {
+			"name": "DurationSSL",
+			"type": ["long", "null"]
+		}, {
+			"name": "DurationOverall",
+			"type": ["long", "null"]
+		}, {
+			"name": "DurationOverallNoSleep",
+			"type": ["long", "null"]
+		}, {
+			"name": "IdleStateOnStart",
+			"type": ["string", "null"]
+		}, {
+			"name": "IdleStateOnEnd",
+			"type": ["string", "null"]
+		}, {
+			"name": "Success",
+			"type": ["boolean", "null"]
+		}, {
+			"name": "BatteryInfo",
+			"type": [{
+					"type": "record",
+					"name": "BatteryInfo",
+					"fields": [{
+							"name": "BatteryChargePlug",
+							"type": ["string", "null"]
+						}, {
+							"name": "BatteryHealth",
+							"type": ["string", "null"]
+						}, {
+							"name": "BatteryTemp",
+							"type": ["string", "null"]
+						}, {
+							"name": "BatteryStatus",
+							"type": ["string", "null"]
+						}, {
+							"name": "BatteryLevel",
+							"type": ["float", "null"]
+						}, {
+							"name": "BatteryVoltage",
+							"type": ["int", "null"]
+						}, {
+							"name": "BatteryTechnology",
+							"type": ["string", "null"]
+						}, {
+							"name": "BatteryCurrent",
+							"type": ["int", "null"]
+						}, {
+							"name": "BatteryCapacity",
+							"type": ["int", "null"]
+						}, {
+							"name": "BatteryRemainingEnergy",
+							"type": ["long", "null"]
+						}, {
+							"name": "MissingPermission",
+							"type": ["boolean", "null"]
+						}
+					]
+				}, "null"]
+		}, {
+			"name": "StorageInfo",
+			"type": [{
+					"type": "record",
+					"name": "StorageInfo",
+					"fields": [{
+							"name": "StorageExternalAvailable",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageExternalSize",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageInternalAvailable",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageInternalSize",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageInternalImages",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageInternalAudio",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageInternalVideo",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageExternalImages",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageExternalAudio",
+							"type": ["long", "null"]
+						}, {
+							"name": "StorageExternalVideo",
+							"type": ["long", "null"]
+						}
+					]
+				}, "null"]
+		}, {
+			"name": "Simoperator",
+			"type": ["string", "null"]
+		}, {
+			"name": "RxLevel",
+			"type": ["int", "null"]
+		}
+	]
+}
