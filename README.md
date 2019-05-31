@@ -17,7 +17,9 @@ The reasons behind the framework decision are:
 An iPython Jupyter Notebook and its exported conda environment (.yml) are attached with the solution files. It is a Python code which works on one data file and not on Spark. It takes an avro file, extracts the schema, find max & average RxLevel, flatten the data, saves it in csv file, convert the csv into parquet file which is partitioned by the MCC information.
 
 ### Anomaly detection
-Anomaly detection is not finished yet. However I have idea how to deal with anomalies in the data. We can use MLlib API for anomaly detection. The problem of having anomalies in big data sets is it will produce inaccurate analysis results. For example, if we want to discover some pattern from the given data set, the aberrant value (anomaly) will influence the machine learning model we train and it will make the model less accurate. We can reduce the impact of anomaly by replacing the extreme values by the average value (or most occurring categorical value).
+* We can use MLlib API for anomaly detection.
+* The impact of having anomalies in big data sets is: It will produce inaccurate analysis results. For example, if we want to discover some pattern from the given data set, the aberrant value (anomaly) will influence the machine learning model that we train and it will make the model less accurate. 
+* We can reduce the impact of anomaly by replacing the extreme values by the average value (or most occurring categorical value).
 
 ### How to run the code
 * Download and install anaconda 
