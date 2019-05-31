@@ -18,7 +18,7 @@ An iPython Jupyter Notebook and its exported conda environment (.yml) are attach
 
 ### Anomaly detection
 * We can use MLlib API for anomaly detection.
-* The impact of having anomalies in big data sets is: It will produce inaccurate analysis results. For example, if we want to discover some pattern from the given data set, the aberrant value (anomaly) will influence the machine learning model that we train and it will make the model less accurate. 
+* The impact of having anomalies in big data sets is: It will produce inaccurate analysis results. For example, if we want to discover some pattern from the given data set like 'DurationOverall' while making calls, the aberrant value (anomaly) will influence the machine learning model that we train and it will make the model less accurate. 
 * We can reduce the impact of anomaly by replacing the extreme values by the average value (or most occurring categorical value).
 
 ### How to run the code
