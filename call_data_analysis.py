@@ -80,7 +80,6 @@ pq.write_to_dataset(df_call_data_table, root_path=outputParquetFile, partition_c
 
 
 # ### Read from the saved parquet file into pandas dataframe
-
-print(pq.read_table(outputParquetFile).to_pandas().drop(columns='SimOperator_key'))
+#print(pq.read_table(outputParquetFile).to_pandas().drop(columns='SimOperator_key'))
 
 
