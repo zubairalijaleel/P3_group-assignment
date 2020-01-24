@@ -4,7 +4,7 @@
 
 The framework selected for the given task is Spark + HDFS. We can use PySpark API available in Spark and other Python libraries for our task. 
 
-![PySpark + HDFS](https://github.com/zubairalijaleel/adnan_assignment/blob/master/spark_and_hdfs.png)
+![PySpark + HDFS](https://github.com/zubairalijaleel/P3_group-assignment/blob/master/spark_and_hdfs.png)
 
 The reasons behind the framework decision are:
 * Spark is an in-memory distributed computing framework which can work on large data sets residing in clusters of commodity servers. For our use case we need a framework which can work on large data sets.
